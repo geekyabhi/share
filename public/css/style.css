@@ -1,7 +1,9 @@
-:root {
-    --main-bg-color: #edf5fe;
+:root {  
+    --main-bg-color: #ffee00;
     --light-blue: #03a9f4;
-    --dark-blue: #028bca;
+    --border-color: #ffee00;
+    --container-width: 500px;
+    --dark-blue:#0363f4;
   }
 
   body {
@@ -14,19 +16,49 @@
     justify-content: center;
     color: #333;
   }
+.logoname{
+  position: absolute;
+  top:20px;
+  left:50%;
+}
 
-  .logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 150px;
-  }
+.logoname .logo{
+  display:inline-block;
+}
+.logoname .name{
+  display:inline-block;
+  margin-left: 30px;
+  text-shadow:10px 10px 15px #000;
+}
+
+.logoname .logo img{
+  width: 80px;
+}
+.logoname .name h1{
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-family: 'Yeon Sung', cursive;
+  color: #000;
+}
+
+.cat{
+  position: absolute;
+  top:200px;
+  left: 800px;
+}
+.cat img{
+  width:300px;
+}
 section.download {
+    position: absolute;
+    top: 120px;
+    left: 90px;
     background: #fff;
     width: 430px;
     max-width: 90%;
     border-radius: 25px;
     box-shadow: 0px 20px 20px 0px #00000017;
+    border: 1px #000 dashed;
     padding: 2rem;
     text-align: center;
 }

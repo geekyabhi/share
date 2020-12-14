@@ -3,15 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/network.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download | InShare - File Sharing Made Easy</title>
+    <title>ShareHere</title>
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-    <img src="/img/logo.png" alt="Inshare logo" class="logo">
-
+    <div class="logoname">
+        <div class="logo">
+            <img src="/img/network.svg" alt="Logo" >
+        </div>
+        <div class="name">
+            <h1>ShareHere</h1>
+        </div>
+    </div>   
     <section class="download">
         <img class="download__icon" src="/img/download-sd.svg" alt="inshare-download">
         <% if(locals.error){ %>
@@ -28,9 +35,12 @@
         </div>
         <% } %>
     </section>
-
+    
+    <div class="cat">
+        <img src="/img/cat.png" alt="Octa Cat">
+    </div>
     <!-- github fork button -->
-    <a href="https://github.com/codersgyan" target="_blank" class="github-corner" aria-label="View source on GitHub">
+    <a href="https://github.com/geekyabhi/sharehere" target="_blank" class="github-corner" aria-label="View source on GitHub">
         <svg width="80" height="80" viewbox="0 0 250 250"
             style="fill:#131315c9; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
             <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
